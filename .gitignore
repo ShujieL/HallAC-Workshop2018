@@ -1,3 +1,14 @@
+# Local links
+data
+rootfiles
+
+# Scratch files
+*.txt
+*.log
+
+# ROOT dictionary cache files (generated)
+*.pcm
+
 # Prerequisites
 *.d
 
