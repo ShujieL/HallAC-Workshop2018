@@ -41,3 +41,9 @@ rootfiles
 *.exe
 *.out
 *.app
+
+# Pythonic files
+*.pkl
+
+# Images
+*.png
