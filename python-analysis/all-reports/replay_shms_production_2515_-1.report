@@ -1,0 +1,673 @@
+**************************
+* General Run Information
+**************************
+
+Run Num     : 2515
+Momentum    : 4.000
+Target AMU  : 10.01
+Spec Theta  : 21.0350
+Beam Energy : 10.589
+
+1 MhZ Pulses : 1272098527
+Run Length   : 1272.099 sec
+
+***********
+* Beamline
+***********
+With no cuts on BCM4.
+  
+BCM1 Current: 24.078 uA		  
+BCM2 Current: 24.147 uA		 
+BCM4a Current: 24.577 uA		  
+BCM4b Current: 24.401 uA		 
+BCM17 Current: 24.859 uA		 
+Unser Current: 12.184 uA		  
+
+BCM1  Charge: 30629.853 uC
+BCM2  Charge: 30717.720 uC	
+BCM4a Charge: 31263.862 uC		  
+BCM4b Charge: 31040.120 uC		 
+BCM17 Charge: 31623.293 uC		 
+Unser Charge: 15498.852 uC
+
+Cut on BCM4 current of 5 uA. Beam over threshold for 1014.230s, or 79.729% of total run time.
+BCM1 Beam Cut Current: 30.182 uA		  
+BCM2 Beam Cut Current: 30.263 uA		 
+BCM4a Beam Cut Current: 30.708 uA		  
+BCM4b Beam Cut Current: 30.377 uA		 
+BCM17 Beam Cut Current: 30.920 uA		 
+Unser Beam Cut Current: 18.324 uA		  
+
+BCM1  Beam Cut Charge: 30611.864 uC
+BCM2  Beam Cut Charge: 30693.254 uC
+BCM4a Beam Cut Charge: 31145.001 uC		  
+BCM4b Beam Cut Charge: 30808.846 uC		 
+BCM17 Beam Cut Charge: 31360.472 uC		 
+Unser Beam Cut Charge: 18585.216 uC
+
+********************
+* DAQ Configuration
+********************
+
+Ps1_factor = -1
+Ps2_factor = 1
+Ps3_factor = -1
+Ps4_factor = -1
+Ps5_factor = -1
+Ps6_factor = -1
+
+***********	
+* Triggers 
+***********
+
+=:=:=:=:=:=:=:  
+= 3/4 Trigger
+=:=:=:=:=:=:=:
+
+SHMS 3/4 Triggers           : 4465309 [ -4465309 ]
+Estimated SHMS 3/4 Triggers : 6391640
+SHMS 3/4 Trigger Rate       : 5.024 kHz
+Accepted SHMS Triggers      : 1235232
+SHMS Event Types            : 1235935
+
+SHMS Computer Live Time : 27.6629 % [ -27.6629 %  ]
+SHMS Computer Dead Time : 72.3371 % [ 127.6629 %  ]
+
+=:=:=:=:=:=:=:=:=:=:=:=:
+= Physics 3/4 Triggers
+=:=:=:=:=:=:=:=:=:=:=:=:
+
+Physics 3/4 Triggers           : 4452588
+Estimated Physics 3/4 Triggers : 6375417
+Physics 3/4 Trigger Rate       : 5.012 kHz
+Accepted Physics Triggers      : 1225181
+
+=:=:=:=:=:=:=:=:  
+= HMS Triggers
+=:=:=:=:=:=:=:=: 
+
+hEL_LO_LO :	446720	[ 0.351 kHz ]
+hEL_LO    :	236384	[ 0.186 kHz ]
+hEL_HI    :	222202	[ 0.175 kHz ]
+hEL_REAL  :	269596	[ 0.212 kHz ]
+hEL_CLEAN :	188964	[ 0.149 kHz ]
+hSTOF     :	646081	[ 0.508 kHz ]
+
+hTRIG1 :  	444726 	[ 0.350 kHz ]
+hTRIG2 :  	269596 	[ 0.212 kHz ]
+hTRIG3 :  	188964 	[ 0.149 kHz ]
+hTRIG4 : 	0 	[ 0.000 kHz ]
+hTRIG5 :  	0 	[ 0.000 kHz ]
+hTRIG6 :  	0 	[ 0.000 kHz ]
+
+=:=:=:=:=:=:=:=: 
+= SHMS Triggers
+=:=:=:=:=:=:=:=: 
+
+pEL_LO_LO :	4186660	[ 3.291 kHz ]
+pEL_LO    :	1077662	[ 0.847 kHz ]
+pEL_HI    :	1226061	[ 0.964 kHz ]
+pEL_REAL  :	1570754	[ 1.235 kHz ]
+pEL_CLEAN :	732573	[ 0.576 kHz ]
+pSTOF     :	5073912	[ 3.989 kHz ]
+
+pTRIG1 :  	4465309 	[ 3.510 kHz ]
+pTRIG2 :  	1570750 	[ 1.235 kHz ]
+pTRIG3 :  	732573 	[ 0.576 kHz ]
+pTRIG4 :  	444708 	[ 0.350 kHz ]
+pTRIG5 :  	0 	[ 0.000 kHz ]
+pTRIG6 :  	13379 	[ 0.011 kHz ]
+
+
+=:=:=:=:
+= EDTM
+=:=:=:=:
+
+EDTM Triggers           : 12721
+Estimated EDTM Triggers : 16222
+EDTM Trigger Rate       : 0.013 kHz
+Accepted EDTM Triggers  : 10754
+
+Total Live Time (EDTM) : 84.5374 %
+Total Dead Time (EDTM) : 15.4626 %
+
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:
+= Live/Dead Time Calculations
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:
+
+SHMS Computer Live Time : 27.6629 % 
+SHMS Computer Dead Time : 72.3371 % 
+
+Pre-Scaled Ps1 SHMS Computer Live Time : -27.6629 %
+Pre-Scaled Ps1 SHMS Computer Dead Time : 127.6629 %
+
+Pre-Scaled Ps2 SHMS Computer Live Time : 78.6844 %
+Pre-Scaled Ps2 SHMS Computer Dead Time : 21.3156 %
+
+Pre-Scaled Ps3 SHMS Computer Live Time : -78.8436 %
+Pre-Scaled Ps3 SHMS Computer Dead Time : 178.8436 %
+
+Total Live Time (EDTM) : 84.5374 %
+Total Dead Time (EDTM) : 15.4626 %
+
+Pre-Scaled Ps1 Total Live Time (EDTM) : -84.5374 %
+Pre-Scaled Ps1 Total Dead Time (EDTM) : 184.5374 %
+
+Pre-Scaled Ps2 Total Live Time (EDTM) : 84.5374 %
+Pre-Scaled Ps2 Total Dead Time (EDTM) : 15.4626 %
+
+Pre-Scaled Ps3 Total Live Time (EDTM) : -84.5374 %
+Pre-Scaled Ps3 Total Dead Time (EDTM) : 184.5374 %
+
+OG 6 GeV Electronic Live Time (100, 150) : 99.9998 %
+OG 6 GeV Electronic Dead Time (100, 150) : 0.0002 %
+
+OG 6 GeV Electronic Live Time (100, 200) : 99.9997 %
+OG 6 GeV Electronic Dead Time (100, 200) : 0.0003 %
+
+OG 6 GeV Electronic Live Time (150, 200) : 99.9999 %
+OG 6 GeV Electronic Dead Time (150, 200) : 0.0001 %
+
+3/4      Pre-Trigger 50 ns Gate  : 5.024 kHz
+EL-REAL  Pre-Trigger 50 ns Gate  : 1.849 kHz
+EL-CLEAN Pre-Trigger 50 ns Gate  : 0.829 kHz
+
+3/4 Pre-Trigger 100 ns Gate : 1.849 kHz
+3/4 Pre-Trigger 150 ns Gate : 1.849 kHz
+3/4 Pre-Trigger 200 ns Gate : 1.849 kHz
+
+=:=:=:=:=:=:=:
+= Hodoscopes
+=:=:=:=:=:=:=:
+
+P1X : 80622238 [ 63.377 kHz ] AND between + and - sides of P1X 
+P1Y : 70525652 [ 55.440 kHz ] AND between + and - sides of P1Y
+P2X : 49534388 [ 38.939 kHz ] AND between + and - sides of P2X
+P2Y : 21867275 [ 17.190 kHz ] AND between + and - sides of P2Y
+
+P1XP1Y : 134450867 [ 105.692 kHz ] AND between P1X and P1Y planes 
+P2XP2Y : 64609650 [ 50.790 kHz ] AND between P2X and P2Y planes                                        
+=:=:=:=:=:=:=:=:=:=:=:=:=
+= Aerogel, HGC, NGC, CAL
+=:=:=:=:=:=:=:=:=:=:=:=:=
+
+AERO : 0 [ 0.000 kHz ] Aerogel sum currently not available
+HGC  : 47084623 [ 37.013 kHz ]
+NGC  : 167626685 [ 131.772 kHz ]
+PRLO : 2855616 [ 2.245 kHz ]
+PRHI : 1800615 [ 1.415 kHz ]
+
+***********
+* Chambers 
+***********
+
+pcut_good_S1_time         Counts: 0     / shms_trigs.scaler : 0       
+pcut_good_S2X_time        Counts: 54    / shms_trigs.scaler : 0.000044    
+pcut_good_S1_S2X_time     Counts: 0 / shms_trigs.scaler : 0
+
+Chamber 1 hits > 0                        Counts: 1159563 / shms_trigs : 0.938207         
+Chamber 2 hits > 0                   	  Counts: 1096798 / shms_trigs : 0.887424        
+Chamber 2 hits > 0 & Ch 1 hits = 0    	  Counts: 19043 / shms_trigs : 0.015408  
+Chamber 1 hits > 0 & Ch 2 hits = 0    	  Counts: 81808 / shms_trigs : 0.066191  
+Chamber 1 hits = 0 & Ch 2 hits = 0    	  Counts: 46575 / shms_trigs : 0.037684  
+Chamber 1 > 0 & Ch 2 hits > 0             Counts: 1077755 / shms_trigs : 0.872016        
+Ch 1 hits > 0 & Ch 2 hits > 0 & track     Counts: 868325 / shms_trigs : 0.702565
+Chamber 1 > 3 & Ch 2 hits > 3             Counts: 1069444 / shms_trigs : 0.865291        
+Ch 1 hits > 3 & Ch 2 hits > 3 & track     Counts: 868325 / shms_trigs : 0.702565
+
+Add cut on good_S1_S2X_time 
+
+Chamber 1 hits > 0                        Counts: 0 / shms_trigs.scaler : 0         
+Chamber 2 hits > 0                   	  Counts: 0 / shms_trigs.scaler : 0        
+Chamber 2 hits > 0 & Ch 1 hits = 0    	  Counts: 0 / shms_trigs.scaler : 0  
+Chamber 1 hits > 0 & Ch 2 hits = 0    	  Counts: 0 / shms_trigs.scaler : 0  
+Chamber 1 hits = 0 & Ch 2 hits = 0    	  Counts: 0 / shms_trigs.scaler : 0  
+Chamber 1 > 0 & Ch 2 hits > 0             Counts: 0 / shms_trigs.scaler : 0        
+Ch 1 hits > 0 & Ch 2 hits > 0 & track     Counts: 0 / shms_trigs.scaler : 0
+Chamber 1 > 3 & Ch 2 hits > 3             Counts: 0 / shms_trigs.scaler : 0        
+Ch 1 hits > 3 & Ch 2 hits > 3 & track     Counts: 0 / shms_trigs.scaler : 0
+
+shmsDC1Planes_large     Counts: 72092 / shms_trigs.scaler : 0.058330
+shmsDC2Planes_large     Counts: 50517 / shms_trigs.scaler : 0.040874  
+
+shmsDC1Planes6     Counts: 661409 / shms_trigs.scaler : 0.535149
+shmsDC2Planes6     Counts: 624002 / shms_trigs.scaler : 0.504883  
+
+shmsDC1x1Planes5     Counts: 692200 eff : 0.998898
+shmsDC1u1Planes5     Counts: 698319 eff : 0.999526
+shmsDC1u2Planes5     Counts: 696412 eff : 0.999619
+shmsDC1v1Planes5     Counts: 694682 eff : 0.998748
+shmsDC1v2Planes5     Counts: 700817 eff : 0.998948
+shmsDC1x2Planes5     Counts: 696420 eff : 0.999680
+
+shmsDC2x1Planes5     Counts: 660139 eff : 0.997981
+shmsDC2u1Planes5     Counts: 661925 eff : 0.999081
+shmsDC2u2Planes5     Counts: 659747 eff : 0.999157
+shmsDC2v1Planes5     Counts: 664582 eff : 0.987121
+shmsDC2v2Planes5     Counts: 661311 eff : 0.999401
+shmsDC2x2Planes5     Counts: 658058 eff : 0.999692
+
+I'm pretty sure that these are the "raw" number of counts. "Raw" means one or more hits per dc plane.
+shmsDC1_1hit_x1: 885594 		
+shmsDC1_1hit_u1: 882320		
+shmsDC1_1hit_u2: 880884		
+shmsDC1_1hit_v1: 882966		
+shmsDC1_1hit_v2: 878865		
+shmsDC1_1hit_x2: 881781		
+
+shmsDC2_1hit_x1: 854345		
+shmsDC2_1hit_u1: 855437		
+shmsDC2_1hit_u2: 855423		
+shmsDC2_1hit_v1: 854094		
+shmsDC2_1hit_v2: 859551		
+shmsDC2_1hit_x2: 859248		
+
+"Good" means one or two hits per dc plane.
+pcut_goodHDC1x1:	     1015318	eff : 0.821
+pcut_goodHDC1u2:	     1005507	eff : 0.814
+pcut_goodHDC1u1:             1006553	eff : 0.814
+pcut_goodHDC1v1:	     1008950	eff : 0.816
+pcut_goodHDC1v2:	     1005147	eff : 0.813
+pcut_goodHDC1x2:	     1013876	eff : 0.820
+
+pcut_goodHDC2x1:	     969877	eff : 0.785
+pcut_goodHDC2u2:	     968378	eff : 0.784
+pcut_goodHDC2u1:	     968071	eff : 0.783
+pcut_goodHDC2v1:	     964202	eff : 0.780
+pcut_goodHDC2v2:	     969944	eff : 0.785
+pcut_goodHDC2x2:	     975338	eff : 0.789
+
+pcut_goodHDC1:	     820171	eff : 0.664
+pcut_goodHDC2:	     776482	eff : 0.628
+pcut_bothgood:	     591150	eff : 0.478
+
+pcut_realhdc1x1:	     1014690
+pcut_realhdc1u2:	     1003529
+pcut_realhdc1u1:             1003991
+pcut_realhdc1v1:	     1008186
+pcut_realhdc1v2:	     1004216
+pcut_realhdc1x2:	     1012293
+
+pcut_realhdc2x1:	     969308
+pcut_realhdc2u2:	     967463
+pcut_realhdc2u1:	     966801
+pcut_realhdc2v1:	     963624
+pcut_realhdc2v2:	     969264
+pcut_realhdc2x2:	     974862
+    	   	       
+**HODOSCOPE**
+"Any" means one or more hits per scint plane.
+pcut_anys1x : 1212786		 eff: 0.981	BAD = ??
+pcut_anys1y : 1220254		 eff: 0.987
+pcut_anys2x : 1211255		 eff: 0.980
+pcut_anys2y : 1118925		 eff: 0.905 
+
+"Good" means one or two hits per scint plane.
+pcut_goods1x : 1103071		 eff: 0.892	BAD = ??
+pcut_goods1y : 1090726		 eff: 0.883
+pcut_goods1  : 1053150		 eff: 0.852
+pcut_goods2x : 1022942		 eff: 0.828
+pcut_goods2y : 899745		 eff: 0.728
+pcut_goods2  : 811185		 eff: 0.656
+pcut_goods1s2: 753208		 eff: 0.609
+
+**TRACKING**
+pcut_FoundTrack  :868325	 eff: 0.703 BAD = ??
+pcut_Found1Track :808023	 eff: 0.654 
+pcut_Found2Track :49078	 eff: 0.040 
+pcut_Found3Track :4234	 eff: 0.003 
+pcut_Found4Track :5456	 eff: 0.004 
+
+pcut_CleanTrack :868325	 eff: 0.703	 BAD = ??
+pcut_Clean1Track:868325	 eff: 0.703 
+pcut_Clean2Track:0	 eff: 0.000
+pcut_Clean3Track:0	 eff: 0.000
+pcut_Clean4Track:0	 eff: 0.000
+
+**CHERENKOVS AND CAL**
+pcut_cer_ng_elec   :	  747631
+pcut_cer_ng_pi     :	  477550
+pcut_cer_hg_elec   :	  1060228
+pcut_cer_hg_pi     :	  164953
+pcut_cer_pi_both   :	  105261
+pcut_cer_elec_both :   	  687939
+pcut_cal_elec      :   	  439114
+pcut_cal_pi        :   	  276479
+pcut_elec_all      :	  403524
+pcut_pi_all        :   	  21267 
+
+pcut_CleanTrack_cer_elec : 518043 
+pcut_p1hit1_cer_elec	 : 679358
+pcut_CleanTrack_cal_elec : 439114 
+pcut_p1hit1_cal_elec 	 : 438848
+
+******************************
+* SHMS TRACKING EFFICIENCIES *
+******************************
+
+ptrig                          : 1235935
+phitslt = passed hits/cham     : 1165614
+phitsplanes = +planes >= 5/6   : 424866
+phitsplanessps = + sps         : 1003506
+phitsplanesspsstubs +stub      : 868325
+psfoundtrack                   : 868325
+pscleantrack                   : 868325
+pstublt = passed stub tests    : 868325
+p1hitslt                       : 1177446
+p2hitslt                       : 1194765
+p1planesgt                     : 1150719
+p2planesgt                     : 1082866
+pplanesgt = gt 5 planes/cham   : 1062849
+f1pspacepoints                 : 4389
+f2pspacepoints                 : 3529
+ptest1=p hits/planes, f sp     : 4
+ptest2=p sp, f stubs           : 135181
+pdid                           : 335837
+pdide                          : 236485
+pdidh                          : 82377
+pscinshould                    : 353736
+pscinshoulde                   : 245636
+pscinshouh                     : 88215
+SING FID TRACK EFFIC           :   0.9494 +-   0.0004
+E SING FID TRACK EFFIC         :   0.9627 +-   0.0004
+HADRON SING FID TRACK EFFIC    :   0.9338 +-   0.0009
+
+***************
+* HGC Cerenkov 
+***************
+
+Good Track Requirements:
+   1. Only one track found in the focal plane
+   2. chisq/dof <  25.0
+   3. 0.000 < beta < 1.200
+   4. 0.000 < calorimeter energy < 1.500
+Threshold set at  0.5
+*HGC EFF* 4PMTs
+SHMS HGC Region 1 efficiency: 0.960501 = 59091 of 61521 good tracks.
+SHMS HGC Region 2 efficiency: 0.981518 = 107433 of 109456 good tracks.
+SHMS HGC Region 3 efficiency: 0.969442 = 275660 of 284349 good tracks.
+SHMS HGC Region 4 efficiency: 0.968664 = 153603 of 158572 good tracks.
+Overall HGC Efficiency: 0.970498 = 595787 of 613898 good tracks.
+
+***************
+* NGC Cerenkov 
+***************
+
+Good Track Requirements:
+   1. Only one track found in the focal plane
+   2. chisq/dof <  25.0
+   3. 0.000 < beta < 1.200
+   4. 0.000 < calorimeter energy < 1.500
+Threshold set at  0.5
+*NGC EFF* 4PMTs
+SHMS NGC Region 1 efficiency: 0.792330 = 38760 of 48919 good tracks.
+SHMS NGC Region 2 efficiency: 0.812958 = 91961 of 113119 good tracks.
+SHMS NGC Region 3 efficiency: 0.558683 = 162831 of 291455 good tracks.
+SHMS NGC Region 4 efficiency: 0.586441 = 94068 of 160405 good tracks.
+Overall NGC Efficiency: 0.631408 = 387620 of 613898 good tracks.
+
+**********
+* Aerogel  
+**********
+
+Good Track Requirements:
+   1. Only one track found in the focal plane 
+   2. chisq/dof <  25.0
+   3. 0.000 < beta < 1.200
+   4. 0.000 < calorimeter energy < 1.500
+   5. -20.000 < delta p (dp) < 25.000 //added because paero_cuts.param has this as a cut 
+Threshold set at  0.5
+*AEROGEL EFF* 7 PMT pairs
+SHMS AERO Region 1 efficiency: 0.997372 = 595516 of 597085 good tracks.
+SHMS AERO Region 2 efficiency: 0 = 0 of 0 good tracks.
+SHMS AERO Region 3 efficiency: 0 = 0 of 0 good tracks.
+SHMS AERO Region 4 efficiency: 0 = 0 of 0 good tracks.
+SHMS AERO Region 5 efficiency: 0 = 0 of 0 good tracks.
+SHMS AERO Region 6 efficiency: 0 = 0 of 0 good tracks.
+SHMS AERO Region 7 efficiency: 0 = 0 of 0 good tracks.
+Overall AERO Efficiency: 0.997372 = 597085 of 597085 good tracks.
+
+****************************
+* Calorimeter Efficiencies *
+****************************
+
+Efficiencies for calorimeter is the fraction of times block was hit when track
+with chisquared/dof <  10.0 came within  2.0 cm of the center.
+and scal_npe_sum  > 3.0 (hardwired). (is this still true?)
+
+Events examined = strig       = 0
+Tracks found    = scleantrack = 868325
+//Tracks passing chisquared cut = (pstat_cal_numevents:%7d) (in previous template, do we need this here?)
+
+shmsPreShower	     Counts: 261497 eff : 0.655985
+shmsShowerArray	     Counts: 285340 eff : 0.737128
+
+**************************
+* Hodoscope Efficiencies * 
+**************************
+
+Efficiencies for hodoscopes is the fraction of times scin. was hit when track
+with chisquared/dof <  10.0 came within  2.0 cm of the center.
+
+Events examined = strig       = 1235935
+Tracks found    = scleantrack = 868325
+//Tracks passing chisquared cut = (pstat_numevents) (in previous template, do we still need this?)
+
+Plane 1: 0.999639
+Plane 2: 0.999500
+Plane 3: 0.986957
+Plane 4: 0.953787
+
+S1XY : 1.000000
+S2XY : 0.999397
+
+STOF: 0.999397
+
+3_of_4 EFF : 0.999347
+4_of_4 EFF : 0.940536
+
+Scint		Pos eff		Neg eff		OR eff		AND eff		 Hits
+-----------------------------------------------------------------------------------------------------------
+P1X1		0		0		 0		 0             0
+P1X2		42775		42772	 	 42775	 	 42772	       42780
+P1X3	 	47423		47426		 47428	 	 47421  	       47432
+P1X4 	 	48796		48797 	 	 48814 	 	 48779	       48817
+P1X5	 	45558		45558 	 	 45559 	 	 45557 	       45563
+P1X6	 	39877		39879 	 	 39879 	 	 39877 	       39893
+P1X7 	 	34129  		34129 	 	 34129 	 	 34129 	       34138
+P1X8 	 	27855 		27853 	 	 27855 	 	 27853 	       27859
+P1X9 	 	21201		21201 	 	 21201 	 	 21201 	       21203
+P1X10 	 	15163 		15163 	 	 15163 	 	 15163	       15167
+P1X11	 	10051 		10041 	 	 10051 	 	 10041 	       10053
+P1X12	 	5396 		5406 	 	 5406 	 	 5396 	       5406
+P1X13 	 	0 		0 	 	 0 	 	 0 	       0
+
+P1Y1 	 	0		0 	 	 0	 	 0	       0
+P1Y2 	 	3951 		3950 	 	 3951 	 	 3950 	       3953
+P1Y3		14426 		14426 	 	 14426 	 	 14426 	       14433
+P1Y4   	 	24736 		24736 	 	 24736 	 	 24736 	       24751
+P1Y5 	 	38336 		38356 	 	 38356 	 	 38336 	       38376
+P1Y6 	 	57043 		57044 	 	 57045 	 	 57042 	       57075
+P1Y7 	 	113875 		113875 	 	 113876 	 	 113874 	       113910
+P1Y8 	 	49321 		49322 	 	 49322 	 	 49321 	       49342
+P1Y9 	 	26039 		26039 	 	 26039 	 	 26039 	       26052
+P1Y10 	 	12999 		13001 	 	 13001 	 	 12999 	       13003
+P1Y11 	 	4262 		4262 	 	 4262 	 	 4262 	       4263
+P1Y12 	 	806 		806 	 	 806 	 	 806 	       806
+P1Y13 	 	0 		0 	 	 0 	 	 0 	       0
+
+P2X1	 	245	 	244	 	 245 	 	 244 	       260
+P2X2 	 	28526	 	28522	 	 28541	 	 28507	       28921
+P2X3 	 	32758 	 	32750 	 	 32770	 	 32738 	       33182
+P2X4 	 	34439 	 	34435	 	 34452 	 	 34422 	       34894
+P2X5 	 	33102 	 	33104 	 	 33112 	 	 33094	       33572
+P2X6 	 	29584	 	29577	 	 29588 	 	 29573 	       29947
+P2X7 	 	25959 	 	25963	 	 25970	 	 25952	       26299
+P2X8 	 	21918 	 	21918		 21922      	 21914	       22241
+P2X9 	 	18374 	 	18376		 18380		 18370	       18589
+P2X10	 	14090	 	14094		 14095		 14089	       14244
+P2X11 	 	10256 	 	10256		 10259		 10253	       10342
+P2X12 	 	7457 	 	7457		 7458		 7456	       7509
+P2X13 	 	4004 	 	4004		 4004		 4004	       4018
+P2X14 	 	56 	 	57		 57		 56	       99
+
+P2Y1	 	0	 	0		 0       	 0	       1833
+P2Y2 	 	729	 	689 	 	 803 	 	 615    	       5326
+P2Y3 	 	9872 	 	9900	 	 9946 	 	 9826	       10298
+P2Y4 	 	13984 	 	14006 	 	 14082 	 	 13908	       14398
+P2Y5 	 	18496 	 	18578	 	 18659 	 	 18415	       19015
+P2Y6 	 	23484 	 	23598 	 	 23689 	 	 23393	       24130
+P2Y7 	 	29012 	 	29135 	 	 29276 	 	 28871	       29769
+P2Y8 	 	35004 	 	35199 	 	 35325 	 	 34878	       35940
+P2Y9 	 	42914 	 	43144 	 	 43304 	 	 42754	       43982
+P2Y10 	 	55052 	 	55338 	 	 55484 	 	 54906	       56243
+P2Y11 	 	89680 	 	90156 	 	 90342 	 	 89494	       91278
+P2Y12 	 	55095 	 	55364 	 	 55481 	 	 54978	       56243
+P2Y13 	 	36273 	 	36437 	 	 36545 	 	 36165	       37055
+P2Y14 	 	25170 	 	25264 	 	 25339 	 	 25095	       25774
+P2Y15 	 	18073 	 	18126 	 	 18201 	 	 17998	       18502
+P2Y16 	 	12577 	 	12598 	 	 12651	 	 12524	       12919
+P2Y17 	 	7917 	 	7932 	 	 7978 	 	 7871	       8165
+P2Y18 	 	4680 	 	4676 	 	 4706 	 	 4650	       4928
+P2Y19 	 	275 	 	264 	 	 307 	 	 232	       2476
+P2Y20 	 	0 	 	0 	 	 0 	 	 0	       930
+P2Y21 	 	0 	 	0	 	 0 	 	 0	       460
+
+*******************
+* Hardware Scalers
+*******************
+
+=:=:=:=:=:=:=
+= HODOSCOPES
+=:=:=:=:=:=:=
+
+Scint	Counts		Rate
+P1X1+:  3257989 [ 2.561 kHz ]
+P1X2+:  5572765 [ 4.381 kHz ]
+P1X3+:  6045832 [ 4.753 kHz ]
+P1X4+:  5898163 [ 4.637 kHz ]
+P1X5+:  7945455 [ 6.246 kHz ]
+P1X6+:  7674267 [ 6.033 kHz ]
+P1X7+:  7268705 [ 5.714 kHz ]
+P1X8+:  7251856 [ 5.701 kHz ]
+P1X9+:  7039705 [ 5.534 kHz ]
+P1X10+: 6652641 [ 5.230 kHz ]
+P1X11+: 7136229 [ 5.610 kHz ] 
+P1X12+: 7384850 [ 5.805 kHz ]
+P1X13+: 5468306 [ 4.299 kHz ]
+
+P1X1-:  3384963 [ 2.661 kHz ]
+P1X2-:  6130330 [ 4.819 kHz ]
+P1X3-:  6305085 [ 4.956 kHz ]
+P1X4-:  6685847 [ 5.256 kHz ]
+P1X5-:  7636177 [ 6.003 kHz ]
+P1X6-:  7574065 [ 5.954 kHz ]
+P1X7-:  6816025 [ 5.358 kHz ]
+P1X8-:  6727097 [ 5.288 kHz ]
+P1X9-:  6731507 [ 5.292 kHz ]
+P1X10-: 6645020 [ 5.224 kHz ]
+P1X11-: 6322709 [ 4.970 kHz ]
+P1X12-: 7303668 [ 5.741 kHz ]
+P1X13-: 5268285 [ 4.141 kHz ]
+ 
+P1Y1+:  4849786 [ 3.812 kHz ]
+P1Y2+:  9790983 [ 7.697 kHz ]
+P1Y3+:  8731810 [ 6.864 kHz ]
+P1Y4+:  8978482 [ 7.058 kHz ]
+P1Y5+:  7682318 [ 6.039 kHz ]
+P1Y6+:  9912663 [ 7.792 kHz ]
+P1Y7+:  9167777 [ 7.207 kHz ]
+P1Y8+:  8198758 [ 6.445 kHz ]
+P1Y9+:  8372664 [ 6.582 kHz ]
+P1Y10+: 6655108 [ 5.232 kHz ]
+P1Y11+: 7496153 [ 5.893 kHz ]
+P1Y12+: 5102518 [ 4.011 kHz ]
+P1Y13+: 3809179 [ 2.994 kHz ]
+
+P1Y1-:  4967526 [ 3.905 kHz ]
+P1Y2-:  7292404 [ 5.733 kHz ]
+P1Y3-:  7763714 [ 6.103 kHz ]
+P1Y4-:  7203568 [ 5.663 kHz ]
+P1Y5-:  9217294 [ 7.246 kHz ]
+P1Y6-:  8983428 [ 7.062 kHz ]
+P1Y7-:  9253677 [ 7.274 kHz ]
+P1Y8-:  7824717 [ 6.151 kHz ]
+P1Y9-:  7260903 [ 5.708 kHz ]
+P1Y10-: 6525237 [ 5.130 kHz ]
+P1Y11-: 6661595 [ 5.237 kHz ]
+P1Y12-: 5454155 [ 4.288 kHz ]
+P1Y13-: 3355014 [ 2.637 kHz ]
+
+P2X1+:  3467871 [ 2.726 kHz ]
+P2X2+:  4947925 [ 3.890 kHz ]
+P2X3+:  4181839 [ 3.287 kHz ]
+P2X4+:  4523105 [ 3.556 kHz ]
+P2X5+:  4698906 [ 3.694 kHz ]
+P2X6+:  5819638 [ 4.575 kHz ]
+P2X7+:  5552961 [ 4.365 kHz ]
+P2X8+:  5933783 [ 4.665 kHz ]
+P2X9+:  5593434 [ 4.397 kHz ]
+P2X10+: 6318907 [ 4.967 kHz ]
+P2X11+: 5827459 [ 4.581 kHz ]
+P2X12+: 5351955 [ 4.207 kHz ]
+P2X13+: 4776310 [ 3.755 kHz ]
+P2X14+: 2397356 [ 1.885 kHz ]
+
+P2X1-:  3669380 [ 2.885 kHz ]
+P2X2-:  4975045 [ 3.911 kHz ]
+P2X3-:  4589263 [ 3.608 kHz ]
+P2X4-:  4954697 [ 3.895 kHz ]
+P2X5-:  4522933 [ 3.555 kHz ]
+P2X6-:  6128625 [ 4.818 kHz ]
+P2X7-:  5348251 [ 4.204 kHz ]
+P2X8-:  6478593 [ 5.093 kHz ]
+P2X9-:  5159379 [ 4.056 kHz ]
+P2X10-: 6390450 [ 5.024 kHz ]
+P2X11-: 5922473 [ 4.656 kHz ]
+P2X12-: 5110896 [ 4.018 kHz ]
+P2X13-: 5259753 [ 4.135 kHz ]
+P2X14-: 2613593 [ 2.055 kHz ]
+
+P2Y1+:  12721 [ 0.010 kHz ]
+P2Y2+:  12721 [ 0.010 kHz ]
+P2Y3+:  3954490 [ 3.109 kHz ] 
+P2Y4+:  3906876 [ 3.071 kHz ]
+P2Y5+:  3770071 [ 2.964 kHz ]
+P2Y6+:  3332843 [ 2.620 kHz ]
+P2Y7+:  3567088 [ 2.804 kHz ]
+P2Y8+:  3495446 [ 2.748 kHz ]
+P2Y9+:  3156794 [ 2.482 kHz ]
+P2Y10+: 3451569 [ 2.713 kHz ]
+P2Y11+: 3223663 [ 2.534 kHz ]
+P2Y12+: 3241544 [ 2.548 kHz ]
+P2Y13+: 3051243 [ 2.399 kHz ]
+P2Y14+: 2950606 [ 2.319 kHz ]
+P2Y15+: 3275739 [ 2.575 kHz ]
+P2Y16+: 3370657 [ 2.650 kHz ]
+P2Y17+: 3284636 [ 2.582 kHz ]
+P2Y18+: 3074939 [ 2.417 kHz ]
+P2Y19+: 12721 [ 0.010 kHz ]
+P2Y20+: 12721 [ 0.010 kHz ]
+P2Y21+: 12721 [ 0.010 kHz ]
+
+P2Y1-:  12721 [ 0.010 kHz ]
+P2Y2-:  12721 [ 0.010 kHz ]
+P2Y3-:  2830005 [ 2.225 kHz ]
+P2Y4-:  2391606 [ 1.880 kHz ]
+P2Y5-:  2839322 [ 2.232 kHz ]
+P2Y6-:  3060166 [ 2.406 kHz ]
+P2Y7-:  2627051 [ 2.065 kHz ]
+P2Y8-:  3192446 [ 2.510 kHz ]
+P2Y9-:  3149051 [ 2.475 kHz ]
+P2Y10-: 3307223 [ 2.600 kHz ]
+P2Y11-: 3425102 [ 2.692 kHz ]
+P2Y12-: 3282584 [ 2.580 kHz ]
+P2Y13-: 2864382 [ 2.252 kHz ]
+P2Y14-: 2969802 [ 2.335 kHz ]
+P2Y15-: 2886607 [ 2.269 kHz ]
+P2Y16-: 2475938 [ 1.946 kHz ]
+P2Y17-: 2304116 [ 1.811 kHz ]
+P2Y18-: 2267647 [ 1.783 kHz ]
+P2Y19-: 12721 [ 0.010 kHz ]
+P2Y20-: 12721 [ 0.010 kHz ]
+P2Y21-: 12721 [ 0.010 kHz ]
