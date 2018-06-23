@@ -13,23 +13,21 @@ else
     fi
 fi
 
+[ -z "$WORKSHOP_DATA" ] && export WORKSHOP_DATA=/data
+
 if [ ! -e ${THIS}/data ]; then
     if [ ! -z "$WORKSHOP_DATA" -a -r ${WORKSHOP_DATA}/raw ]; then
 	ln -s ${WORKSHOP_DATA}/raw ${THIS}/data
-    elif [ -r /data/raw ]; then
-	ln -s /data/raw ${THIS}/data
     else
-	echo "/data/raw not found, creating empty data dir"
+	echo "$WORKSHOP_DATA/raw not found, creating empty data dir"
 	mkdir ${THIS}/data
     fi
 fi
 if [ ! -e ${THIS}/rootfiles ]; then
     if [ ! -z "$WORKSHOP_DATA" -a -r ${WORKSHOP_DATA}/ROOTfiles ]; then
 	ln -s ${WORKSHOP_DATA}/ROOTfiles ${THIS}/rootfiles
-    elif [ -r /data/ROOTfiles ]; then
-	ln -s /data/ROOTfiles ${THIS}/rootfiles
     else
-	echo "/data/ROOTfiles not found, creating empty rootfiles dir"
+	echo "$WORKSHOP_DATA/ROOTfiles not found, creating empty rootfiles dir"
 	mkdir ${THIS}/rootfiles
     fi
 fi
